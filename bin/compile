@@ -114,4 +114,4 @@ if [ ! -f Procfile ]; then
 fi
 
 echo "cUrl to app"
-curl "localhost:\$PORT"
+curl "localhost:$PORT"
