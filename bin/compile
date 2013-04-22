@@ -113,4 +113,5 @@ if [ ! -f Procfile ]; then
   echo "       play run --http.port=\$PORT \$PLAY_OPTS"
 fi
 
-echo "hola!!"
+echo "cUrl to app"
+curl "localhost:\$PORT"
